@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.tt.UI.MainPage">
+  <grid id="27dc6" binding="jpnRoot" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="814" height="474"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8f3c1" binding="jpnMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-15328994"/>
+          <preferredSize width="200" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="35b39" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <icon value="icon/school.png"/>
+              <text value=""/>
+              <verifyInputWhenFocusTarget value="false"/>
+            </properties>
+          </component>
+          <component id="ebd46" class="javax.swing.JButton" binding="btnHome">
+            <constraints/>
+            <properties>
+              <icon value="icon/home.png"/>
+              <label value="HOME"/>
+              <preferredSize width="180" height="38"/>
+              <text value="HOME"/>
+            </properties>
+          </component>
+          <grid id="bbfb6" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-15328994"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="344f9" class="javax.swing.JButton" binding="btnAccount">
+            <constraints/>
+            <properties>
+              <icon value="icon/recruitment.png"/>
+              <label value="ACCOUNT"/>
+              <preferredSize width="180" height="50"/>
+              <text value="ACCOUNT"/>
+            </properties>
+          </component>
+          <grid id="b22da" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-15328994"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="ea802" class="javax.swing.JButton" binding="btnStudent">
+            <constraints/>
+            <properties>
+              <icon value="icon/students.png"/>
+              <label value="STUDENT"/>
+              <preferredSize width="180" height="50"/>
+              <text value="STUDENT"/>
+            </properties>
+          </component>
+          <grid id="7681b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <background color="-15328994"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="16ee1" class="javax.swing.JButton" binding="btnLogOut">
+            <constraints/>
+            <properties>
+              <icon value="icon/log-out.png"/>
+              <preferredSize width="180" height="50"/>
+              <text value="LOG OUT"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a238a" binding="jpnView" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-14538962"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

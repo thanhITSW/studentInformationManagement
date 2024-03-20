@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.tt.UI.Home">
+  <grid id="27dc6" binding="jpnHome" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="720" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="19b65" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <icon value="icon/welcome.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b46bc" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Segoe Print" size="24" style="1"/>
+          <text value="Welcome to App Management School"/>
+          <verticalAlignment value="1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
